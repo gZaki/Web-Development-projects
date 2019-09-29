@@ -1,0 +1,148 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 60px;
+    right: 0;
+    padding-right: 20px;
+    background-color: whitesmoke; /* Black*/
+    overflow: auto; /* Disable horizontal scroll */
+    opacity: 0.9; 
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.sidenav a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#58a0cc;
+    display: block;
+    transition: 0.3s;
+    padding: 5px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #58a0cc;
+}
+
+
+/* Position and style the close button (top right corner) */
+/*.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}*/
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+*/
+/*ajouter un effect de shadow ou border bottom de a*/
+
+#mySidenav a{
+    box-shadow: 0 1px 1px 0 rgba(110, 172, 210, 0.5);
+}
+
+/*supprimer le style de list par default*/
+
+ul li{
+    list-style: none;
+}
+
+/*mettre les sous menu invisible*/
+.submenu{
+    display:none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+#rottaed{
+    transform: rotate(-90deg);
+    padding-left: 0;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+}
+
+.drop{
+    float: left;
+}
+
+.col-md-12{
+    line-height: 3;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+	background-color:rgb(88, 160, 204); 
+}
+
+/*.submenu li{
+    width: 200%;
+}*/
+
+#mySidenav{
+    width: 22%;
+}
+
+.hidden-xss{
+    padding-right:10px;
+    /*float: right;*/
+}
+
+article a img{
+    float: right;
+}
+
+@media all and (max-width: 1080px){
+    #mySidenav{
+        width: 3%;
+    }
+    #logo{
+        width: 30px;
+        height: 60px;
+    }
+    .hidden-xss,.redim{
+        display: none;
+    }
+}
+
+@media all and (max-width: 980px){
+    #mySidenav a{
+        padding-right: 18px;
+    }
+    article a img{
+        float: unset;
+    }
+}
+
+@media all and (max-width: 770px){
+    #mySidenav a{
+        padding-right: 8px;
+    }
+}
+
+@media all and (max-width: 500px){
+    #mySidenav{
+        display: none;
+    }
+}

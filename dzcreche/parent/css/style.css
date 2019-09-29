@@ -1,0 +1,621 @@
+body{
+     font-family: 'FFYaseer-Solid',sans-serif;
+}
+
+
+@font-face {
+    font-family: 'FFYaseer-Regular';
+    src: url('../../Font/FFYaseer-Regular.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'FFYaseer-Solid';
+    src: url('../../Font/FFYaseer-Solid.otf') format('otf');
+}
+
+.navbar{
+    background-color:rgb(209,230,241);opacity:0.9;border:0;
+}
+.nav-link,.navbar{
+    height: 60px;
+    -webkit-transition: all 0.5s; /* Safari */
+    transition: all 0.5s;
+}
+.nav-item:nth-child(5) .nav-link{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(219, 219, 219);
+    border-radius: 0;
+}
+.nav-item:nth-child(4) .nav-link{
+    background-color: rgb(88, 160, 204);
+    border-radius: 0;
+    border-bottom: 5px solid rgb(219, 219, 219);
+}
+
+.nav-item:nth-child(3) .nav-link{
+    background-color: rgb(232, 57, 118);
+    border-radius: 0;
+    border-bottom: 5px solid rgb(219, 219, 219);
+}
+
+.nav-item:nth-child(2) .nav-link{
+    background-color: rgb(170, 200, 74);
+    border-radius: 0;
+    border-bottom: 5px solid rgb(219, 219, 219);
+}
+
+.nav-item:nth-child(1) .nav-link{
+    background-color: rgb(28, 73, 139);
+    border-radius: 0;
+    border-bottom: 5px solid rgb(219, 219, 219);
+}
+
+.nav-item .text-uppercase{
+    color: white;
+    font-size: 15px;
+}
+
+.nav-item:nth-child(5) .nav-link:hover{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 5px solid  rgb(255, 255, 255);
+}
+
+.nav-item:nth-child(4) .nav-link:hover{
+    background-color: rgb(88, 160, 204);
+    border-bottom: 5px solid  rgb(88, 160, 204);
+    color: white;
+}
+
+.nav-item:nth-child(3) .nav-link:hover{
+    background-color: rgb(232, 57, 118);
+    border-bottom: 5px solid  rgb(232, 57, 118);
+    color: white;
+}
+
+.nav-item:nth-child(2) .nav-link:hover{
+    background-color: rgb(170, 200, 74);
+    border-bottom: 5px solid  rgb(170, 200, 74);
+    color: white;
+}
+
+.nav-item:nth-child(1) .nav-link:hover{
+    background-color: rgb(28, 73, 139);
+    border-bottom: 5px solid  rgb(28, 73, 139);
+    color: white;
+}
+
+.nav-item:nth-child(1){
+    -webkit-transition: display 2s; /* Safari */
+    transition: display 2s;
+}
+
+.nav-item:nth-child(1):hover .dropdown-menu{
+    display: block;
+}
+
+.nav-item:nth-child(1) .nav-link:visited{
+    color: white;
+    background-color: rgb(28, 73, 139);
+}
+
+.dropdown-menu{
+    background-color: rgb(34, 149, 83);
+    opacity: 0.95;
+}
+
+.dropdown-item{
+    display: block;
+    color: white;
+    border-bottom: 1px solid whitesmoke;
+    padding: 5px;
+    text-align: right;
+    direction: rtl;
+    text-indent: 10px;
+    width: 300px;
+}
+
+.dropdown-item img{
+    float: right;
+}
+
+.dropdown-item:hover{   
+    background-color: rgb(34, 149, 83);
+    opacity: 0.8;
+}
+
+.contentn{
+    position: absolute;
+    top: 60px;
+    width: 100%;
+}
+
+.bg-karim{
+    background-color: rgb(0,81,118);
+    color: white;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+footer ul{
+    margin: auto;
+    padding-bottom: 25px;
+}
+
+footer{
+    padding-top: 20px;
+    text-align:center;
+}
+
+footer a{
+    color:white;
+    text-decoration:underline;
+}
+
+footer a:hover{
+    color:white;
+}
+@media all and (max-width: 606px){
+    footer{
+        font-size: 10px;
+    }
+}
+
+/*espace prive creche page syle*/
+
+.bg{
+    background: url('../images/f_login.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+.bg .container{
+    margin-top:20px;
+    padding-bottom:20px;
+    background:white;
+}
+
+.bg header img{
+    margin: auto;
+}
+
+.bg-2{
+    width: 780px;
+    height: 600px;
+    margin: 0 auto;
+    background: url('../images/f_form-loginx700.png') no-repeat center -28px;
+    background-size:contain;
+}
+
+@media all and (max-width: 640px){
+    .bg-2{
+        left: inherit;
+        top: 50px;
+        margin: 0 auto;
+        width: 320px;
+        background: url("../images/f_form-login.png") no-repeat scroll center center;
+        background-size:contain;
+    }
+    .bg-2 h1{
+        font-size: 25px;
+    }
+    section.bg-2 .col-xs-5{
+        width: 75%;
+        margin-left: 35px;
+    }
+    section.bg-2 .btn-2{
+        margin-left: 55px;
+    }
+}
+
+.bg-2 h1{
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+.btn-2{
+    background:url('../images/b_form-login.png') no-repeat; 
+    background-size:contain;               
+    width:200px;
+    height:80px;
+    padding:0;
+    font-size:30px;
+    color:white; 
+    direction:rtl;
+    padding-bottom: 25px;
+}
+
+.btn-2:hover{
+    color:gray;
+}
+
+.input-lg{
+    border-radius: 30px;
+}
+
+.contentn{
+    direction: rtl;
+}
+
+.rainbowize {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-size:contain;
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/*page des parent*/
+
+.bg-compte{
+    background: url('../images/backgroundpng.png') no-repeat;
+    background-size:cover;
+    padding-top:60px;
+}
+
+.bg-compte .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: white;
+}
+
+.bg-compte p b{
+    color: rgb(230, 66, 112);
+    font-size:22px;
+}
+
+.bg-compte h1{
+    padding-bottom: 50px;
+    color: rgb(88, 160, 204);
+    font-size:50px;
+}
+
+.bg-compte h1,.bg-compte p{
+    text-align: center;
+}
+
+.bg-compte img,{
+    height:250px;
+    width:100%;
+}
+
+.form-horizontal{
+    padding-top: 50px;
+}
+
+.bg-compte .container .row .col-md-6:first-child{
+    border-right: 1px solid rgb(88, 160, 204);
+}
+
+.bg-compte .container .row{
+    padding-bottom: 50px;
+}
+
+.bg-compte .container .btn,.bg .container .btn{
+    background: rgb(230, 66, 112);
+    color: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.bg-compte .container input,.bg .container input{
+    background: rgb(205,226,240);
+    border-radius: 30px;
+}
+
+
+/*footer style*/
+
+footer .pad{
+     padding:3.5em;
+     border-bottom:1px solid rgb(88,160,204);
+}
+
+footer .row:last-child{
+    padding:20px;
+}
+
+footer .row:last-child a{
+    margin: auto;
+}
+
+footer .row:last-child a img{
+    width: 50%;
+}
+
+footer .fa{
+    color: white;
+}
+
+
+/*style ges_inscription.php */
+
+.bg-compte .container{
+    padding: 100px;
+}
+
+@media all and (max-width: 980px){
+    .bg-compte .container{
+        padding: 20px;
+    }
+}
+
+.form-horizontal label{
+    padding-top:0;
+    float: right;
+}
+
+.form-horizontal .form-group .text-right{
+    background: none;
+    border: none;
+    border-radius: 0;
+}
+
+[enctype="multipart/form-data"] fieldset legend{
+    text-align: right;
+    color: rgb(88, 160, 204);
+}
+
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    white;
+    text-align:right;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ffffff;
+   opacity:  1;
+   text-align:right;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ffffff;
+   opacity:  1;
+   text-align:right;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    white;
+   text-align:right;
+}
+input::-ms-input-placeholder { /* Microsoft Edge */
+   color:    white;
+   text-align:right;
+}
+
+/*style of the setting page */
+
+.table .form-horizontal{
+    padding: 0;
+}
+
+.table {
+    margin: 10px;
+}
+
+/*gestionnaire index*/
+.card {
+  background: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  flex:1;
+  margin:25px 10px;
+  text-align: center;
+  font-family: arial;
+  position: relative;
+}
+
+.card button[type="button"]{
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+}
+
+.card > a{
+    display: block;
+    height: 200px;
+}
+
+.containe {
+  padding: 0 16px;
+}
+
+.containe::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.row .containe button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(28, 73, 139);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.containe a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.containe button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.offre {
+  border: 2px solid #ccc;
+  background-color: rgb(88,160,204);
+  color: white;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.offre:nth-child(2n){
+    background-color: rgb(232, 57, 118);
+}
+
+.offre a{
+    color: white;
+}
+
+.offre a:hover{
+    text-decoration: none;
+}
+
+.offre::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.offre img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.offre span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .offre {
+      text-align: center;
+  }
+  .offre img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+
+
+.myFile {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  clear: left;
+}
+.myFile input[type="file"] {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 0;
+  font-size: 100px;
+  filter: alpha(opacity=0);
+  cursor: pointer;
+}
+
+.fileUpload {
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0 10px 10px;
+	background-color: #BDBDBD;
+	height: 200px;
+	width: 200px;
+	text-align: center;
+        border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+}
+.fileUpload input.upload {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	height: 100%;
+	text-align: center;
+}
+.custom-span{ font-family: Arial; font-weight: bold;font-size: 100px; color: #FE57A1}
+#uploadFile{border: none;margin-left: 10px; width: 200px;}
+.custom-para{font-family: arial;font-weight: bold;font-size: 24px; color:#585858;}
+
+[target="_blank"] img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+	height: 250px;
+	width: 200px;
+}
+
+[target="_blank"] img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.open{
+    padding: 0;
+    display: flex;
+}
+
+.inline{
+    float: right;
+    margin-right: 30px;
+}
+@media all and (min-width:975px){
+    .col-md-3{
+        float: right;
+    }
+}
+
+.offre form{
+    width: 85%;
+}
+
+.message{
+    background:rgb(245,248,249);
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+}
+.card .fa{
+  padding: 5px;
+  font-size: 30px;
+  width: 45px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-google-plus {
+  background: #dd4b39;
+  color: white;
+}
+
+.affiche{
+    text-align: justify;
+word-break: break-all;
+}

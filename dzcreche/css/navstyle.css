@@ -1,0 +1,142 @@
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 60px;
+    right: 0;
+    background-color: white; /* Black*/
+    overflow: auto; /* Disable horizontal scroll */
+    opacity: 0.9; 
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+
+}
+
+/* The navigation menu links */
+.sidenav a{
+    text-decoration: none;
+    font-size: 16px;
+    color:#58a0cc;
+    display: block;
+    transition: 0.3s;
+    /*padding: 5px;*/
+}
+
+.sidenav img{
+    float: right;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover{
+    color: rgb(255, 255, 255);
+    background-color: #58a0cc;
+}
+
+
+/* Position and style the close button (top right corner) */
+/*.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}*/
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+*/
+/*ajouter un effect de shadow ou border bottom de a*/
+
+#mySidenav a{
+    box-shadow: 0 1px 1px 0 rgba(110, 172, 210, 0.5);
+    direction: rtl;
+}
+
+/*supprimer le style de list par default*/
+
+ul li{
+    list-style: none;
+}
+
+/*mettre les sous menu invisible*/
+.submenu{
+    display:none;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+#rottaed{
+    transform: rotate(270deg);
+    padding-left: 0;
+}
+
+#logo{
+    height: 150px;
+    width: 150px;
+    padding: 10px;
+    margin: auto;
+}
+
+.drop{
+    float: left;
+}
+
+.col-md-12{
+   line-height: 2;
+}
+
+.active{
+    color: rgb(255, 255, 255);
+	background-color:rgb(88, 160, 204); 
+}
+
+.submenu li{
+    width: 200%;
+}
+
+#mySidenav{
+    width: 20%;
+}
+
+@media all and (max-width: 1080px){
+    #mySidenav{
+        width: 5%;
+    }
+    #logo{
+        width: 30px;
+        height: 30px;
+        padding: 0;
+    }
+    .hidden-xss,.redim{
+        display: none;
+    }
+    #mySidenav article{
+        margin:auto;
+    }
+}
+
+@media all and (max-width: 620px){
+    #mySidenav{
+        display: none;
+    }
+}
+
+.hidden-xs{
+    padding-right: 10px;
+}
+
+@media all and (max-width: 840px){
+    .sidenav .col-md-12{
+        padding: 0;
+    }
+}

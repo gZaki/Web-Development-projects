@@ -1,0 +1,1081 @@
+/* CSS Document */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.bg{
+    background:url(../img/3200.png) center top no-repeat;
+   /* background-attachment:fixed;*/
+    background-size: cover;
+
+}
+
+
+body{
+    background: url(../naMpZrZ.jpg) center top no-repeat #216dd3;
+    background-attachment:fixed;
+    background-size: cover;	
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    border:0;
+}
+
+.clear{
+    clear:both;
+}
+
+#ie6{
+    width:100%;
+    height:30px;
+    line-height:30px;
+    font-size:12px;
+    color:#fff;
+    text-align:center;
+    position:absolute;
+    left:0;
+    top:0;
+    background-color:#8dd822;
+    visibility:hidden;
+}
+
+#ie6 a{
+    color:#fff;
+    text-decoration:underline;
+}
+
+body img{
+    border:0;
+}
+
+body table {
+    border-collapse:collapse;
+    border: 0;
+}
+
+
+#toutcontenu{
+    width:980px;
+    margin:auto;
+}
+
+#content_header{
+    width:980px;
+    margin:auto;	
+}
+
+#langues{
+    margin-top:2px;
+}
+
+#fr {
+    width:110px;
+    height:110px;
+    float:right;
+}
+
+#en {
+    width:124px;
+    height:115px;
+    float:right;
+}
+
+#nom {
+    width:633px;
+    height:179px;
+    /*position:absolute;*/
+    margin: auto auto auto 280px;
+}
+
+
+#menu{
+    width:241px;
+    height:548px;
+    margin-top:58px;
+    position:absolute;
+}
+
+
+
+#contenu{
+    width: 750px;
+    margin-left:235px;
+    margin-top: 55px;
+    position:relative;
+}
+
+#rubrique{
+    width:315px;
+    height:84px;
+    margin-left:20px;
+
+}
+
+#texte{
+    width:393px;
+    position:relative;
+    height:657px;
+    background:url(../img/bkgtexte.png);
+    top:25px;
+}
+
+#contenttexte{
+    float:left;
+    margin-top:30px;
+    width:289px;
+    color:#333;
+    margin-left:50px;
+    font-size:15px;
+}
+
+#contenttexte p{
+    margin-top:15px;
+
+}
+
+#chequeservice{
+    font-size:17px;
+
+}
+
+#chequeservice span{
+    color:#F00;
+}
+
+#video{
+    width:390px;
+    height:470px;
+    background:url(../img/bkgvideo.png);
+    position:absolute;
+    top:10px;
+    right:30px;
+
+}
+
+#lienvideo{
+    margin-top:60px;
+    margin-left:18px;
+}
+
+#contentvideo{
+    width:320px;
+    margin:auto;
+    color:#333;
+    font-size:13px;
+    margin-top:10px;
+}
+
+#contentvideo p{
+    margin-top:15px;
+}
+
+#footer{
+    width:980px;
+    position:absolute;
+    top:1000px;
+}
+
+#petiteherbe{
+    width:144px;
+    height:203px;
+    margin-bottom:25px;
+    margin-left:40px;
+
+}
+
+#poussinchiffre{
+    width:278px;
+    height:352px;
+    margin-left: 40px;
+}
+
+#poussinpinceau{
+    width:407px;
+    height:362px;
+    margin-left:30px;
+}
+
+/*#peinture{
+        width:980px;
+        height:600px;
+        position:absolute;
+        top:310px;
+}*/
+
+#tacheverte{
+    height: 85px;
+    position: absolute;
+    right: -17px;
+    top: -10px;
+    width: 87px;
+}
+
+#tachebordeau{
+    width:104px;
+    height:86px;
+    left:200px;
+    top:-59px;
+    position:absolute;
+}
+
+#tacherose {
+    height: 113px;
+    position: absolute;
+    right: -18px;
+    top: 550px;
+    width: 131px;
+}
+
+/*page Nos Ecoles*/
+
+#nosecoles{
+    width:255px;
+    height:93px;
+    margin-left:20px;
+}
+
+#textenosecoles{
+    width:704px;
+    position:relative;
+    height:664px;
+    background:url(../img/bkgnosecoles.png);
+    top:5px;
+    left:15px;
+}
+
+
+#contenunosecoles{
+    margin-left:235px;
+    margin-top: 45px;
+    position:relative;
+}
+
+#situationcreche{
+    width:500px;
+    position:relative;
+    top:35px;
+    left:105px;
+    font-size:14px;
+}
+
+.nomdescreches{
+    top:40px;
+    left:400px;
+    font-weight:bold;
+    font-size:15px;
+    color:#f61313;
+
+}
+
+
+.photocreche{
+    float:left;
+    width:250px;
+    height:164px;
+    padding-bottom:15px;
+}
+
+.adresse{
+    float:right;
+    width:210px;
+    font-size:13px;
+    padding-bottom:15px;
+}
+
+
+#poussinballonrouge{
+    width:800px;
+    height:365px;
+    margin-left:250px;
+    position:relative;
+    margin-top:195px;
+}
+
+
+
+.email{
+    color:#333;
+    text-decoration:none;
+}
+
+#parking{
+    font-size:14px;
+}
+
+/*page enseigner*/
+
+/*#enseigner{
+        width:226px;
+        height:71px;
+        margin-left:20px;
+        
+}*/
+
+
+#texteenseigner{
+    width:419px;
+    position:relative;
+    background:url(../img/bkgenseigner.png) repeat-y;
+    top:25px;
+}
+
+.contenuenseigner{
+    width:325px;
+    padding: 40px;
+    color:#4e4c4c;
+    font-size:13px;
+}
+
+#titreenseigner{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.contenuenseigner p{
+    margin-top:5px;
+}
+
+#introenseigner{
+    font-size:18px;
+    color:#62248d;
+    padding-top:10px;
+    font-weight:bold;
+}
+
+.soustitreenseigner{
+    color:#62248d;
+    padding-top:10px;
+}
+
+
+
+#texteenseignerdroite{
+    width:419px;
+    position:absolute;
+    background:url(../img/bkgenseigner.png) repeat-y;
+    left:350px;
+    top:30px;
+}
+
+
+#photogalerieenseigner{
+    width:318px;
+    height:213px;
+    margin-left:10px;
+    margin-bottom:5px;
+}
+
+
+#tacheviolet{
+    width:102px;
+    height:90px;
+    position:absolute;
+    left:285px;
+    top:348px;
+    z-index: 1;
+}
+
+#tacherouge{
+    width:122px;
+    height:111px;
+    position:absolute;
+    right:-18px;
+    top:615px;
+}
+
+#poussinpinceauenseigner{
+    width:407px;
+    height:362px;
+    position:absolute;
+    left:110px;
+    top:940px;
+
+}
+
+/*page nos sorties*/
+
+#sorties{
+    width:263px;
+    height:78px;
+    margin-left:20px;
+}
+
+.soustitresorties{
+    color:#F60;
+    padding-top:10px;
+    font-size:14px;
+}
+
+.contenusorties{
+    width:325px;
+    padding: 40px;
+    color:#4e4c4c;
+    font-size:14px;
+    color:#F60;
+}
+
+.contenusorties p{
+    margin-bottom:10px;
+}
+
+#textesortiesdroite{
+    width:419px;
+    position:absolute;
+    background:url(../img/bkgenseigner.png) repeat-y;
+    left:380px;
+    top:140px;
+}
+
+#slidephoto{
+    margin-left:10px;
+}
+
+#poussinballonbl{
+    width:462px;
+    height:378px;
+    position:absolute;
+    top:260px;
+
+}
+
+#petiteherbesorties{
+    width:144px;
+    height:203px;
+    position:absolute;
+    top:420px;
+    left:600px;
+
+}
+
+/*page animations*/
+
+#animations{
+    width:251px;
+    height:72px;
+    margin-left:20px;
+}
+
+.soustitreanimations{
+    color:#93d21d;
+    padding-top:10px;
+    font-size:14px;
+    padding-bottom:10px;
+}
+.contenuanimations{
+    width:325px;
+    padding: 40px;
+    color:#4e4c4c;
+    font-size:12px;
+}
+
+.contenuanimations p{
+    margin-bottom:10px;
+}
+
+#poussinpoupee{
+    width:584px;
+    height:402px;
+    position:absolute;
+    top:660px;
+    left:280px;
+
+}
+
+.titreanimations{
+    font-size:20px;
+    font-weight:bold;
+}
+
+/*page bonnevoie*/
+
+#bonnevoie{
+    width:406px;
+    height:95px;
+    margin-left:20px;
+}
+
+.soustitrebonnevoie{
+    color:#e319b9;
+    padding-top:10px;
+    font-size:14px;
+    padding-bottom:10px;
+}
+
+.contenubonnevoie{
+    width:310px;
+    padding: 40px;
+    color:#4e4c4c;
+    font-size:13px;
+}
+
+#textebonnevoiedroite{
+    width:419px;
+    position:absolute;
+    background:url(../img/bkgenseigner.png) repeat-y;
+    left:350px;
+    top:80px;
+}
+
+#poussinstep1{
+    width:471px;
+    height:523px;
+    position:absolute;
+    top:870px;
+    left:1px;
+
+}
+
+#poussinstep2{
+    width:346px;
+    height:458px;
+    position:absolute;
+    top:870px;
+    left:500px;
+}
+
+.contenubonnevoie ul, #textebonnevoiedroite ul{
+    list-style-image:url(../img/puce.jpg);
+    margin-left:13px;
+}
+
+/*page inscription*/
+
+#inscriptions{
+    width:282px;
+    height:75px;
+    margin-left:20px;
+}
+
+#positionformulaire{
+    width:500px;
+    position:relative;
+    top:25px;
+    left:100px;
+    font-size:14px;
+}
+
+
+table#formulaire
+{
+    width: 578px;
+    position: relative;
+    z-index: 50;
+}
+
+table#formulaire .ligne
+{
+    border-bottom: 1px dashed red;
+
+}
+
+table#formulaire td.titre
+{
+    width: 150px;
+    height: 30px;
+}
+
+table#formulaire td.day input
+{
+    margin: 0 5px 0 0;
+}
+
+table#formulaire td.day span
+{
+    margin: 0 5px 0 0;
+}
+
+table#formulaire td.infos
+{
+    font-size: 12px;
+    color: #666;
+}
+
+table#formulaire td span.infos2
+{
+    font-size: 12px;
+    color: #666;
+}
+
+table#formulaire td.titre label
+{
+    font-weight: bold;
+    margin: 0 0 0 5px;
+}
+
+/* Galerie */
+
+div.gallery{
+    position:absolute;
+    left:20px;
+    width:740px; 
+    height:187px; 
+    padding-top:10px;
+}
+
+#gal_sorties{
+    /*top:405px; */
+}
+
+#gal_anim{
+    top:480px;
+}
+
+#gal_creche{
+    /*top:675px;*/
+}
+
+div.gallery .imgs_sorties{
+    border: solid 5px #F60;
+}
+
+div.gallery .imgs_anim{
+    border: solid 5px #93d21d;
+}
+
+div.gallery .imgs_creche{
+    border:5px solid #e319b9;
+}
+
+/* Slideshow */
+
+#slides {
+    width:318px;
+    height:213px;
+    margin-left:10px;
+    margin-bottom:5px;
+    border:2px solid #62248d;
+}
+
+.slides_container {
+    width:318px;
+    overflow:hidden;
+    position:relative;
+    display:none;
+}
+
+.slides_container a {
+    width:318px;
+    height:213px;
+    display:block;
+}
+
+.slides_container a img {
+    display:block;
+}
+
+.pagination{
+    display:none;
+}
+
+#dotcom{
+    color:#8dd822;
+    font-size:12px;
+    position:fixed;
+    right:5px;
+    bottom:5px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+bg-success{
+    background: green;
+}
+
+.text-center{
+    text-align: center
+}
+
+#felsea{ width:100%; text-align:center; font-family:Cambria, "Times New Roman", serif; font-size:13px; margin-top:20px; }
+#felsea img{ display:block; margin:0 auto; }
+#felsea p{ margin:0; margin-top:6px; }
+
+.ekk-menu-collapse,
+.flexslider {
+    display: none;
+}
+/* Responsiveness */
+
+@media (max-width: 979px) {
+    .gallery {
+        display: none;
+    }
+    .flexslider {
+        display: block;
+        max-width: 392px;
+        left: -2px;
+        margin: 0px auto !important;
+        padding: 40px;
+        -webkit-border-radius: 0px !important; 
+        -moz-border-radius: 0px !important; 
+        border-radius: 0px !important;
+        border: none !important;
+        margin-top: 70px !important;
+    }
+    #toutcontenu {
+        width: 100%;
+    }
+    #content_header {
+        width: 100%;
+    }
+    #langues {
+        display: block;
+        text-align: center;
+    }
+    #en{ 
+        float:none;
+    }
+    #fr {
+        float:none;
+    }
+    /* menu collapse button */
+    .ekk-menu-collapse {
+        background: none;
+        border: none;
+        cursor: pointer;
+        border: 2px solid #fff;
+        position: absolute;
+        top: 55px;
+        right: 7%;
+        display: block;
+    }
+    .ekk-menu-collapse span {
+        background-color: white;
+        width: 22px;
+        height: 2px;
+        display: block;
+        margin: 3px;
+    }
+
+    #menu {
+        display: none;
+        position: relative;
+        margin: 0 auto;
+    }
+    #nom {
+        margin: 80px auto 0px;
+        width: inherit;
+    }
+    #nom > img {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+    }
+    #contenu {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #contenunosecoles {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    #rubrique,
+    #nosecoles,
+    #enseigner,
+    #sorties,
+    #animations,
+    #bonnevoie,
+    #inscriptions{
+        display: block;
+        margin: auto;
+        position: relative;
+        top: -30px;
+        width: 90%;
+        height: auto;
+    } 
+    #rubrique {
+        max-width: 315px;
+    }
+    #enseigner {
+        max-width: 226px;
+    }
+    #sorties {
+        max-width: 263px;
+    }
+    #animations {
+        max-width:251px;
+    }
+    #nosecoles,
+    #inscriptions {
+        max-width: 255px;
+    }
+    #bonnevoie {
+        max-width: 406px;
+    }
+    #texte,
+    #texteenseigner,
+    #texteenseignerdroite,
+    #textesortiesdroite,
+    #textebonnevoiedroite{
+        margin: auto;
+        position: relative;
+        top: 40px;
+        left: 0px;
+        width: 100%;
+        max-width: 419px;
+        background-repeat: repeat-y;
+    }
+    #contenttexte {
+        max-width: 289px;
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 30px 0px 0px 50px;
+    }
+    #slides {
+        width: 100%;
+        max-width: 318px;
+    }
+    /*==================== enseigner ================= */
+    #texteenseignerdroite #slides img {
+        width: 100%;
+        max-width: 318px;
+        display: block;
+    }  
+    #texteenseignerdroite #slides .slides_container 
+    {
+        width: 100%;
+        max-width: 318px;
+    }
+    #texteenseignerdroite #slides .slides_container .slides_control {
+        width: 100% !important;
+        max-width: 318px;
+        height: auto;
+    }
+    .contenuenseigner,
+    .contenusorties,
+    .contenuanimations,
+    .contenubonnevoie {
+        box-sizing: border-box;
+        width: 100%;
+    }
+    #poussinpinceauenseigner {
+        display: block;
+        left: 0;
+        margin: 60px auto 0;
+        position: relative;
+        top: 0;
+        width: 50%;
+        max-width:407px;
+        height: auto;
+    }
+    /*==================== end enseigner ================= */
+    #textenosecoles {
+        background: url("../img/bkgenseigner.png") repeat-y scroll 0 0;
+        height: 100%;
+        left: 0px;
+        margin: 0px auto;
+        max-width: 419px;
+        position: relative;
+        width: auto;
+    }
+    /* Inscription form */
+    #positionformulaire {
+        position: relative;
+        box-sizing: border-box;
+        left: 10px;
+        max-width: 395px;
+        padding: 35px;
+        width: 97%;
+    }
+    table#formulaire {
+        width: 100%;
+    }
+    #formulaire tbody tr td {
+        float: left;
+        width: 100%;
+    }
+    table#formulaire td.day input {
+        float: left;
+        width: 10%;
+    }
+    table#formulaire td.day span {
+        float: left;
+        width: 80%;
+    }
+    /* ================ */
+    #situationcreche {
+        left: 0px;
+        padding: 35px 20px;
+        top: 0px;
+        width: auto;
+    }
+    .photocreche {
+        text-align: center;
+        width: 100%;
+    }
+    .photocreche img {
+        height: auto;
+        max-width: 250px;
+        width: 100%
+    }
+    .adresse {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    #video {
+        margin: auto;
+        position: relative;
+        left: 0px;
+        max-width: 390px;
+        width: 100%;
+    }
+    #lienvideo > iframe {
+        position: relative;
+        top: 55px;
+    }
+    #contentvideo {
+        box-sizing: border-box;
+        max-width: 320px;
+        padding-left: 35px;
+        padding-right: 10px;
+        position: relative;
+        top: 60px;
+        width: 100%;
+    }
+    #footer {
+        left: 0px;
+        position: relative;
+        top: 0px;
+        max-width: 100%;
+        text-align: center;
+    }
+    #petiteherbe,
+    #poussinchiffre,
+    #poussinpinceau {
+        height: auto;
+        margin: 0;
+        padding: 0;
+        width: 30%;
+    }
+    #poussinballonrouge {
+        margin: 35px 0;
+        width: 100%;
+        height: auto;
+    }
+    #poussinballonrouge > img {
+        display: block;
+        margin: auto;
+        max-width: 800px;
+        width: 100%;
+    }
+
+    /* ======= Img Galeries ======= */
+
+    #gal_sorties,
+    #gal_anim,
+    #gal_creche {
+        left: 0;
+        margin: 40px auto;
+        max-width: 740px;
+        position: relative;
+        top: 40px;
+        width: 100% !important;
+    }
+
+    #poussinballonbl,
+    #poussinpoupee,
+    #poussinstep1,
+    #poussinstep2 {
+        display: block;
+        margin: auto;
+        left: 0;
+        position: relative;
+        top: 0 !important;
+        max-width: 462px;
+        width: 50%;
+        height: auto;
+    }
+
+    #poussinstep1 {
+        max-width: 471px;
+    }
+    /*    #poussinstep2 {
+            max-width: 346px;
+        }*/
+    #petiteherbesorties,
+    #poussinstep2 {
+        display: none;
+    }
+    /* ========================= */
+}
+
+/* for photo galerie */
+@media (max-width: 767px) {
+    .gallery {
+        display: none;
+    }
+    #poussinballonbl,
+    #poussinpoupee,
+    #poussinstep1 {
+        top : 40px !important;
+    }
+}
+
+
+@media (max-width: 389px) {
+    .ekk-menu-collapse {
+        position: relative;
+        left: 0px;
+        right: 0px;
+        top: 0px;
+        margin: auto;
+    }
+    #texte{
+        position: relative;
+        left: -20px;
+        padding-right: 13px;
+    }
+    #texteenseigner, #texteenseignerdroite, #textesortiesdroite, #textebonnevoiedroite { 
+        left: -6px;
+    }
+    #textenosecoles {
+        margin-right: 10px;
+    }
+    #video {
+        position: relative;
+        left: -6px;
+    }
+    #lienvideo {
+        height: 0;
+        margin-left: 18px;  
+        margin-top: 60px;
+        padding-bottom: 56.25%;
+        padding-top: 25px;
+        position: relative;
+    }
+    #lienvideo > iframe {
+        height: 100%;
+        left: -4px;
+        margin: 0 auto;
+        position: absolute;
+        top: 55px;
+        width: 100%;
+    }
+    .flexslider {
+        margin-left: 8px !important;
+        margin-right: 6px !important;
+    }
+}
+
+
+@media (max-width: 454px) {
+    /* repositionate all spots */
+    #tacherose {
+        right: 0px;
+    }
+    #tacheverte {
+        right: 0px;
+        top : -30px;
+    }
+    #tacheviolet {
+        right: 0px;
+        left: auto;
+    }
+    #tacherouge {
+        right: 0px;
+    }
+}
